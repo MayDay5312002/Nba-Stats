@@ -33,7 +33,7 @@ jobs:
 
     - name: Make Changes
       run: |
-        git add new_file.txt
+        git add .
         git commit -m "Updating existing json file"
 
     - name: Push Changes
