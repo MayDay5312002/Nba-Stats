@@ -31,3 +31,14 @@ jobs:
         cd ./nbascrapper
         scrapy crawl nbaspider -O ../stat.json  # Replace with the name of your Scrapy spider
 
+    - name: Make Changes
+      run: |
+        git add new_file.txt
+        git commit -m "Updating existing json file"
+
+    - name: Push Changes
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
+
