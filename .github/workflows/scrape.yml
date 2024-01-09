@@ -29,5 +29,5 @@ jobs:
     - name: Run Scrapy Spider
       run: |
         cd ./nbascrapper
-        scrapy crawl nbaspider -O stat.json  # Replace with the name of your Scrapy spider
+        scrapy crawl nbaspider -O ../stat.json  # Replace with the name of your Scrapy spider
 
