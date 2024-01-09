@@ -20,7 +20,10 @@ class NbaspiderSpider(scrapy.Spider):
                 person['place'] = int(row[j].css('td::text').get())
                 person['player_name'] = row[j].css('a::text')[0].get()
                 person['team_name'] = row[j].css('span::text').get()
-                person['stat'] = int(row[j].css('a::text')[1].get())
+                if(i == 8):
+                        person['stat'] = float(row[j].css('a::text')[1].get())
+                else:
+                    person['stat'] = int(row[j].css('a::text')[1].get())
                 yield person
                 # yield {
                 #     'category': person['category'],
