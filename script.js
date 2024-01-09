@@ -1,5 +1,6 @@
 const jsonFilePath = 'stat.json';
 
+let x  = [];
 // Fetch the JSON file using the Fetch API
 fetch(jsonFilePath)
   .then(response => {
@@ -10,7 +11,7 @@ fetch(jsonFilePath)
   })
   .then(data => {
     // Data is the decoded JSON object
-    console.log(data);
+    console.log(data[0].category);
 
     // You can now work with the decoded JSON object here
     // For example, you can access properties like data.propertyName
