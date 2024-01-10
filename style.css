@@ -11,6 +11,7 @@ span {
     /* vertical-align: middle; */
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 1.2em;
 }
 
 table {
