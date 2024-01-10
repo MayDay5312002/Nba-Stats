@@ -16,3 +16,5 @@ fetch(jsonFilePath)
   .catch(error => {
     console.error('Error fetching the JSON file:', error);
   });
+
+print(scrapedData);
