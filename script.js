@@ -1,6 +1,7 @@
 const jsonFilePath = 'stat.json';
 var x;
 // Fetch the JSON file using the Fetch API
+// windows.location.reload(true);
 fetch(jsonFilePath)
   .then(response => {
     if (!response.ok) {
@@ -10,6 +11,7 @@ fetch(jsonFilePath)
   })
   .then(data => {
     // Assign the data to a property of the global object
+    // windows.location.reload(true);
     let dateYes = document.querySelector('span.date');
     // dateYes.innerText = 
     let i = 0;
