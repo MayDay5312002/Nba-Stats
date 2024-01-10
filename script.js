@@ -1,5 +1,5 @@
 const jsonFilePath = 'stat.json';
-let jsonFile;
+
 // Fetch the JSON file using the Fetch API
 fetch(jsonFilePath)
   .then(response => {
@@ -9,14 +9,10 @@ fetch(jsonFilePath)
     return response.json();
   })
   .then(data => {
-    // Data is the decoded JSON object
-    jsonfile = data
-    print(jsonFile)
-    // You can now work with the decoded JSON object here
-    // For example, you can access properties like data.propertyName
+    // Assign the data to a property of the global object
+    window.myAppData = data;
+    console.log(window.myAppData); // Access the data globally
   })
   .catch(error => {
     console.error('Error fetching the JSON file:', error);
   });
-
-print(jsonFile)
