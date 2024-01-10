@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: lato, sans-serif;
 
 }
 span {
@@ -15,6 +16,7 @@ span {
 table {
     width: 25em;
     margin-top: 1em;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 td {
     vertical-align: middle;
@@ -24,7 +26,15 @@ td {
 h1{
     margin: .5em;
     text-align: center;
+    font-weight: bold;
 }
-td {
+td[colspan="3"] {
     /* display: inline-block; */
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+img {
+    margin-top: 0.3em;
 }

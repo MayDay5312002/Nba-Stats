@@ -10,6 +10,8 @@ fetch(jsonFilePath)
   })
   .then(data => {
     // Assign the data to a property of the global object
+    let dateYes = document.querySelector('span.date');
+    // dateYes.innerText = 
     let i = 0;
     let j = 1;
     let k = 1;
