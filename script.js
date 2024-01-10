@@ -1,5 +1,5 @@
 const jsonFilePath = 'stat.json';
-
+let scrapedData;
 // Fetch the JSON file using the Fetch API
 fetch(jsonFilePath)
   .then(response => {
@@ -10,7 +10,7 @@ fetch(jsonFilePath)
   })
   .then(data => {
     // Assign the data to a property of the global object
-    window.myAppData = data;
+    scrapedData = data;
     console.log(window.myAppData); // Access the data globally
   })
   .catch(error => {
