@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+span {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    /* vertical-align: middle; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+table {
+    width: 25em;
+    margin-top: 1em;
+}
+td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+h1{
+    margin: .5em;
+    text-align: center;
+}
+td {
+    /* display: inline-block; */
+}
