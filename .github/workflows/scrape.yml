@@ -2,7 +2,7 @@ name: Scrape
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Run every 30 mins
+    - cron: '0 */1 * * *' # Run every hour
   workflow_dispatch:
 
 env:
