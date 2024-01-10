@@ -22,35 +22,35 @@ fetch(jsonFilePath)
         if(i == 0){
           let arr = document.querySelectorAll("table.points tr.first td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(i == 1){
           let arr = document.querySelectorAll("table.points tr.second td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(i == 2){
           let arr = document.querySelectorAll("table.points tr.third td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(i == 3){
           let arr = document.querySelectorAll("table.points tr.fourth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(i == 4){
           let arr = document.querySelectorAll("table.points tr.fifth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -61,35 +61,35 @@ fetch(jsonFilePath)
         if(r == 0){
           let arr = document.querySelectorAll("table.rebounds tr.first td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 1){
           let arr = document.querySelectorAll("table.rebounds tr.second td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 2){
           let arr = document.querySelectorAll("table.rebounds tr.third td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 3){
           let arr = document.querySelectorAll("table.rebounds tr.fourth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 4){
           let arr = document.querySelectorAll("table.rebounds tr.fifth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -100,35 +100,35 @@ fetch(jsonFilePath)
         if(r == 0){
           let arr = document.querySelectorAll("table.assists tr.first td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 1){
           let arr = document.querySelectorAll("table.assists tr.second td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 2){
           let arr = document.querySelectorAll("table.assists tr.third td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 3){
           let arr = document.querySelectorAll("table.assists tr.fourth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 4){
           let arr = document.querySelectorAll("table.assists tr.fifth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -139,35 +139,35 @@ fetch(jsonFilePath)
         if(r == 0){
           let arr = document.querySelectorAll("table.blocks tr.first td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 1){
           let arr = document.querySelectorAll("table.blocks tr.second td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 2){
           let arr = document.querySelectorAll("table.blocks tr.third td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 3){
           let arr = document.querySelectorAll("table.blocks tr.fourth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 4){
           let arr = document.querySelectorAll("table.blocks tr.fifth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -178,35 +178,35 @@ fetch(jsonFilePath)
         if(r == 0){
           let arr = document.querySelectorAll("table.steals tr.first td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 1){
           let arr = document.querySelectorAll("table.steals tr.second td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 2){
           let arr = document.querySelectorAll("table.steals tr.third td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 3){
           let arr = document.querySelectorAll("table.steals tr.fourth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 4){
           let arr = document.querySelectorAll("table.steals tr.fifth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -217,35 +217,35 @@ fetch(jsonFilePath)
         if(r == 0){
           let arr = document.querySelectorAll("table.turnovers tr.first td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 1){
           let arr = document.querySelectorAll("table.turnovers tr.second td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 2){
           let arr = document.querySelectorAll("table.turnovers tr.third td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 3){
           let arr = document.querySelectorAll("table.turnovers tr.fourth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 4){
           let arr = document.querySelectorAll("table.turnovers tr.fifth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -256,35 +256,35 @@ fetch(jsonFilePath)
         if(r == 0){
           let arr = document.querySelectorAll("table.threePts tr.first td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 1){
           let arr = document.querySelectorAll("table.threePts tr.second td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 2){
           let arr = document.querySelectorAll("table.threePts tr.third td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 3){
           let arr = document.querySelectorAll("table.threePts tr.fourth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 4){
           let arr = document.querySelectorAll("table.threePts tr.fifth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -295,35 +295,35 @@ fetch(jsonFilePath)
         if(r == 0){
           let arr = document.querySelectorAll("table.freeT tr.first td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 1){
           let arr = document.querySelectorAll("table.freeT tr.second td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 2){
           let arr = document.querySelectorAll("table.freeT tr.third td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 3){
           let arr = document.querySelectorAll("table.freeT tr.fourth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 4){
           let arr = document.querySelectorAll("table.freeT tr.fifth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -334,35 +334,35 @@ fetch(jsonFilePath)
         if(r == 0){
           let arr = document.querySelectorAll("table.FantasyP tr.first td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 1){
           let arr = document.querySelectorAll("table.FantasyP tr.second td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 2){
           let arr = document.querySelectorAll("table.FantasyP tr.third td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 3){
           let arr = document.querySelectorAll("table.FantasyP tr.fourth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
         if(r == 4){
           let arr = document.querySelectorAll("table.FantasyP tr.fifth td")
           arr[0].innerText = data[i].place;
-          arr[1].innerText = data[i].player_name;
+          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
