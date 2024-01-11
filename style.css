@@ -4,6 +4,9 @@
     font-family: lato, sans-serif;
 
 }
+/* body {
+    position: absolute;
+} */
 span.tables {
     display: flex;
     /* flex-direction: column; */
@@ -44,4 +47,11 @@ img {
 }
 a {
     font-size: 0.8em;
+}
+
+footer {
+    width: 100vw;
+    text-align: center;
+    color: rgb(80, 80, 80);
+    margin-bottom: 0.2em;
 }
