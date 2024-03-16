@@ -39,8 +39,8 @@
 {"category": "Free Throws Made", "place": 1, "player_name": "Dejounte Murray", "team_name": "ATL", "stat": 8},
 {"category": "Free Throws Made", "place": 1, "player_name": "Terry Rozier", "team_name": "MIA", "stat": 8},
 {"category": "Free Throws Made", "place": 1, "player_name": "Victor Wembanyama", "team_name": "SAS", "stat": 8},
-{"category": "Fantasy Points", "place": 1, "player_name": "Dejounte Murray", "team_name": "ATL", "stat": 57.9},
-{"category": "Fantasy Points", "place": 2, "player_name": "Zion Williamson", "team_name": "NOP", "stat": 57.4},
+{"category": "Fantasy Points", "place": 1, "player_name": "Zion Williamson", "team_name": "NOP", "stat": 57.4},
+{"category": "Fantasy Points", "place": 2, "player_name": "Dejounte Murray", "team_name": "ATL", "stat": 56.7},
 {"category": "Fantasy Points", "place": 3, "player_name": "Bam Adebayo", "team_name": "MIA", "stat": 50.8},
 {"category": "Fantasy Points", "place": 4, "player_name": "Nikola Jokic", "team_name": "DEN", "stat": 49.9},
 {"category": "Fantasy Points", "place": 5, "player_name": "Devin Booker", "team_name": "PHX", "stat": 48.7}
