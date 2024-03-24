@@ -36,7 +36,7 @@ jobs:
         git config user.email "evarretta.luke@gmail.com"
         git config user.name "MayDay5312002"
         git pull
-        git add stat.json
+        git add .
         git commit -m "Updating existing json file"
 
     - name: Push Changes
