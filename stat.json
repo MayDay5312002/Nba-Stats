@@ -42,6 +42,6 @@
 {"category": "Fantasy Points", "place": 1, "player_name": "Giannis Antetokounmpo", "team_name": "MIL", "stat": 58.8},
 {"category": "Fantasy Points", "place": 2, "player_name": "Zion Williamson", "team_name": "NOP", "stat": 55.4},
 {"category": "Fantasy Points", "place": 3, "player_name": "Bam Adebayo", "team_name": "MIA", "stat": 52.7},
-{"category": "Fantasy Points", "place": 4, "player_name": "Josh Giddey", "team_name": "OKC", "stat": 41.8},
-{"category": "Fantasy Points", "place": 4, "player_name": "James Harden", "team_name": "LAC", "stat": 41.8}
+{"category": "Fantasy Points", "place": 4, "player_name": "James Harden", "team_name": "LAC", "stat": 41.8},
+{"category": "Fantasy Points", "place": 5, "player_name": "Josh Giddey", "team_name": "OKC", "stat": 40.8}
 ]
