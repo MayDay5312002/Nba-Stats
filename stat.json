@@ -19,11 +19,11 @@
 {"category": "Blocks", "place": 3, "player_name": "Chet Holmgren", "team_name": "OKC", "stat": 2},
 {"category": "Blocks", "place": 3, "player_name": "Dereck Lively II", "team_name": "DAL", "stat": 2},
 {"category": "Blocks", "place": 3, "player_name": "Austin Reaves", "team_name": "LAL", "stat": 2},
-{"category": "Steals", "place": 1, "player_name": "Luka Doncic", "team_name": "DAL", "stat": 3},
 {"category": "Steals", "place": 1, "player_name": "Zion Williamson", "team_name": "NOP", "stat": 3},
-{"category": "Steals", "place": 3, "player_name": "Giannis Antetokounmpo", "team_name": "MIL", "stat": 2},
-{"category": "Steals", "place": 3, "player_name": "Anthony Davis", "team_name": "LAL", "stat": 2},
-{"category": "Steals", "place": 3, "player_name": "De'Aaron Fox", "team_name": "SAC", "stat": 2},
+{"category": "Steals", "place": 2, "player_name": "Giannis Antetokounmpo", "team_name": "MIL", "stat": 2},
+{"category": "Steals", "place": 2, "player_name": "Anthony Davis", "team_name": "LAL", "stat": 2},
+{"category": "Steals", "place": 2, "player_name": "Luka Doncic", "team_name": "DAL", "stat": 2},
+{"category": "Steals", "place": 2, "player_name": "De'Aaron Fox", "team_name": "SAC", "stat": 2},
 {"category": "Turnovers", "place": 1, "player_name": "Giannis Antetokounmpo", "team_name": "MIL", "stat": 7},
 {"category": "Turnovers", "place": 2, "player_name": "Zion Williamson", "team_name": "NOP", "stat": 5},
 {"category": "Turnovers", "place": 3, "player_name": "Anthony Davis", "team_name": "LAL", "stat": 4},
@@ -43,5 +43,5 @@
 {"category": "Fantasy Points", "place": 2, "player_name": "Anthony Davis", "team_name": "LAL", "stat": 78.6},
 {"category": "Fantasy Points", "place": 3, "player_name": "Austin Reaves", "team_name": "LAL", "stat": 65.8},
 {"category": "Fantasy Points", "place": 4, "player_name": "D'Angelo Russell", "team_name": "LAL", "stat": 60.4},
-{"category": "Fantasy Points", "place": 5, "player_name": "Luka Doncic", "team_name": "DAL", "stat": 55.2}
+{"category": "Fantasy Points", "place": 5, "player_name": "Zion Williamson", "team_name": "NOP", "stat": 54.0}
 ]
