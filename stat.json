@@ -27,8 +27,8 @@
 {"category": "Turnovers", "place": 1, "player_name": "Trae Young", "team_name": "ATL", "stat": 8},
 {"category": "Turnovers", "place": 2, "player_name": "Luka Samanic", "team_name": "UTA", "stat": 7},
 {"category": "Turnovers", "place": 3, "player_name": "OG Anunoby", "team_name": "NYK", "stat": 6},
-{"category": "Turnovers", "place": 3, "player_name": "Dalano Banton", "team_name": "POR", "stat": 6},
 {"category": "Turnovers", "place": 3, "player_name": "Emoni Bates", "team_name": "CLE", "stat": 6},
+{"category": "Turnovers", "place": 3, "player_name": "Brandon Boston Jr.", "team_name": "LAC", "stat": 6},
 {"category": "Three Pointers Made", "place": 1, "player_name": "Bradley Beal", "team_name": "PHX", "stat": 6},
 {"category": "Three Pointers Made", "place": 1, "player_name": "Svi Mykhailiuk", "team_name": "BOS", "stat": 6},
 {"category": "Three Pointers Made", "place": 1, "player_name": "Nick Smith Jr.", "team_name": "CHA", "stat": 6},
@@ -39,9 +39,9 @@
 {"category": "Free Throws Made", "place": 3, "player_name": "Paolo Banchero", "team_name": "ORL", "stat": 8},
 {"category": "Free Throws Made", "place": 3, "player_name": "Devin Booker", "team_name": "PHX", "stat": 8},
 {"category": "Free Throws Made", "place": 5, "player_name": "Anthony Edwards", "team_name": "MIN", "stat": 7},
-{"category": "Fantasy Points", "place": 1, "player_name": "LeBron James", "team_name": "LAL", "stat": 74.5},
-{"category": "Fantasy Points", "place": 2, "player_name": "Payton Pritchard", "team_name": "BOS", "stat": 64.8},
-{"category": "Fantasy Points", "place": 3, "player_name": "GG Jackson", "team_name": "MEM", "stat": 62.9},
+{"category": "Fantasy Points", "place": 1, "player_name": "LeBron James", "team_name": "LAL", "stat": 80.7},
+{"category": "Fantasy Points", "place": 2, "player_name": "GG Jackson", "team_name": "MEM", "stat": 65.9},
+{"category": "Fantasy Points", "place": 3, "player_name": "Payton Pritchard", "team_name": "BOS", "stat": 64.8},
 {"category": "Fantasy Points", "place": 4, "player_name": "Amen Thompson", "team_name": "HOU", "stat": 61.2},
 {"category": "Fantasy Points", "place": 5, "player_name": "Bradley Beal", "team_name": "PHX", "stat": 58.7}
 ]
