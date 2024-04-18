@@ -1,5 +1,5 @@
 [
-{"category": "Points", "place": 1, "player_name": "Coby White", "team_name": "CHI", "stat": 40},
+{"category": "Points", "place": 1, "player_name": "Coby White", "team_name": "CHI", "stat": 42},
 {"category": "Points", "place": 2, "player_name": "Dejounte Murray", "team_name": "ATL", "stat": 30},
 {"category": "Points", "place": 3, "player_name": "Tyler Herro", "team_name": "MIA", "stat": 25},
 {"category": "Points", "place": 4, "player_name": "Nikola Vucevic", "team_name": "CHI", "stat": 24},
@@ -36,12 +36,12 @@
 {"category": "Three Pointers Made", "place": 3, "player_name": "Dejounte Murray", "team_name": "ATL", "stat": 3},
 {"category": "Free Throws Made", "place": 1, "player_name": "Trae Young", "team_name": "ATL", "stat": 11},
 {"category": "Free Throws Made", "place": 2, "player_name": "Joel Embiid", "team_name": "PHI", "stat": 9},
-{"category": "Free Throws Made", "place": 3, "player_name": "Jimmy Butler", "team_name": "MIA", "stat": 7},
-{"category": "Free Throws Made", "place": 3, "player_name": "Coby White", "team_name": "CHI", "stat": 7},
+{"category": "Free Throws Made", "place": 2, "player_name": "Coby White", "team_name": "CHI", "stat": 9},
+{"category": "Free Throws Made", "place": 4, "player_name": "Jimmy Butler", "team_name": "MIA", "stat": 7},
 {"category": "Free Throws Made", "place": 5, "player_name": "Tyrese Maxey", "team_name": "PHI", "stat": 6},
-{"category": "Fantasy Points", "place": 1, "player_name": "Coby White", "team_name": "CHI", "stat": 64.6},
-{"category": "Fantasy Points", "place": 2, "player_name": "Dejounte Murray", "team_name": "ATL", "stat": 51.2},
+{"category": "Fantasy Points", "place": 1, "player_name": "Coby White", "team_name": "CHI", "stat": 67.8},
+{"category": "Fantasy Points", "place": 2, "player_name": "Dejounte Murray", "team_name": "ATL", "stat": 52.4},
 {"category": "Fantasy Points", "place": 3, "player_name": "Joel Embiid", "team_name": "PHI", "stat": 48.5},
-{"category": "Fantasy Points", "place": 4, "player_name": "DeMar DeRozan", "team_name": "CHI", "stat": 47.7},
-{"category": "Fantasy Points", "place": 5, "player_name": "Clint Capela", "team_name": "ATL", "stat": 46.4}
+{"category": "Fantasy Points", "place": 4, "player_name": "Clint Capela", "team_name": "ATL", "stat": 48.4},
+{"category": "Fantasy Points", "place": 5, "player_name": "DeMar DeRozan", "team_name": "CHI", "stat": 47.7}
 ]
