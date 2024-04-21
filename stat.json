@@ -1,10 +1,10 @@
 [
 {"category": "Points", "place": 1, "player_name": "Luka Doncic", "team_name": "DAL", "stat": 33},
-{"category": "Points", "place": 2, "player_name": "James Harden", "team_name": "LAC", "stat": 28},
-{"category": "Points", "place": 2, "player_name": "Kyrie Irving", "team_name": "DAL", "stat": 28},
+{"category": "Points", "place": 2, "player_name": "Kyrie Irving", "team_name": "DAL", "stat": 31},
+{"category": "Points", "place": 3, "player_name": "James Harden", "team_name": "LAC", "stat": 28},
 {"category": "Points", "place": 4, "player_name": "Bam Adebayo", "team_name": "MIA", "stat": 24},
 {"category": "Points", "place": 5, "player_name": "Jayson Tatum", "team_name": "BOS", "stat": 23},
-{"category": "Rebounds", "place": 1, "player_name": "Ivica Zubac", "team_name": "LAC", "stat": 14},
+{"category": "Rebounds", "place": 1, "player_name": "Ivica Zubac", "team_name": "LAC", "stat": 15},
 {"category": "Rebounds", "place": 2, "player_name": "Luka Doncic", "team_name": "DAL", "stat": 13},
 {"category": "Rebounds", "place": 3, "player_name": "Jayson Tatum", "team_name": "BOS", "stat": 10},
 {"category": "Rebounds", "place": 4, "player_name": "Terance Mann", "team_name": "LAC", "stat": 9},
@@ -19,11 +19,11 @@
 {"category": "Blocks", "place": 2, "player_name": "Jrue Holiday", "team_name": "BOS", "stat": 2},
 {"category": "Blocks", "place": 2, "player_name": "Derrick Jones Jr.", "team_name": "DAL", "stat": 2},
 {"category": "Blocks", "place": 2, "player_name": "Kristaps Porzingis", "team_name": "BOS", "stat": 2},
+{"category": "Steals", "place": 1, "player_name": "Josh Green", "team_name": "DAL", "stat": 2},
 {"category": "Steals", "place": 1, "player_name": "Jrue Holiday", "team_name": "BOS", "stat": 2},
 {"category": "Steals", "place": 1, "player_name": "Kyrie Irving", "team_name": "DAL", "stat": 2},
 {"category": "Steals", "place": 1, "player_name": "Jayson Tatum", "team_name": "BOS", "stat": 2},
 {"category": "Steals", "place": 1, "player_name": "P.J. Washington", "team_name": "DAL", "stat": 2},
-{"category": "Steals", "place": 1, "player_name": "Russell Westbrook", "team_name": "LAC", "stat": 2},
 {"category": "Turnovers", "place": 1, "player_name": "Luka Doncic", "team_name": "DAL", "stat": 4},
 {"category": "Turnovers", "place": 1, "player_name": "Russell Westbrook", "team_name": "LAC", "stat": 4},
 {"category": "Turnovers", "place": 3, "player_name": "Jayson Tatum", "team_name": "BOS", "stat": 3},
@@ -41,7 +41,7 @@
 {"category": "Free Throws Made", "place": 5, "player_name": "Bam Adebayo", "team_name": "MIA", "stat": 4},
 {"category": "Fantasy Points", "place": 1, "player_name": "Luka Doncic", "team_name": "DAL", "stat": 56.6},
 {"category": "Fantasy Points", "place": 2, "player_name": "Jayson Tatum", "team_name": "BOS", "stat": 53.0},
-{"category": "Fantasy Points", "place": 3, "player_name": "James Harden", "team_name": "LAC", "stat": 48.4},
-{"category": "Fantasy Points", "place": 4, "player_name": "Kyrie Irving", "team_name": "DAL", "stat": 44.7},
-{"category": "Fantasy Points", "place": 5, "player_name": "Ivica Zubac", "team_name": "LAC", "stat": 43.3}
+{"category": "Fantasy Points", "place": 3, "player_name": "Kyrie Irving", "team_name": "DAL", "stat": 50.4},
+{"category": "Fantasy Points", "place": 4, "player_name": "James Harden", "team_name": "LAC", "stat": 47.4},
+{"category": "Fantasy Points", "place": 5, "player_name": "Ivica Zubac", "team_name": "LAC", "stat": 44.5}
 ]
