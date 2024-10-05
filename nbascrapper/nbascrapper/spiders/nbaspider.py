@@ -24,6 +24,7 @@ class NbaspiderSpider(scrapy.Spider):
                         person['stat'] = float(row[j].css('a::text')[1].get())
                 else:
                     person['stat'] = int(row[j].css('a::text')[1].get())
+                person['player_link'] = "https://www.nba.com"+row[j].css('a::attr(href)')[0].get()
                 yield person
                 # yield {
                 #     'category': person['category'],

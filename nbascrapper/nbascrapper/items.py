@@ -14,4 +14,4 @@ class NbascrapperItem(scrapy.Item):
     player_name = scrapy.Field()
     team_name = scrapy.Field()
     stat = scrapy.Field()
-    pass
+    player_link = scrapy.Field()

@@ -55,3 +55,19 @@ footer {
     color: rgb(80, 80, 80);
     margin-bottom: 0.2em;
 }
+td a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    transition: color 0.175s ease, background-color 0.175s ease; /* Smooth transition */
+}
+td a:hover{
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+
+

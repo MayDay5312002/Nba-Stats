@@ -33,7 +33,13 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -47,7 +53,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -61,7 +72,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -75,7 +91,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -89,7 +110,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -107,7 +133,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -121,7 +152,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -135,7 +171,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -149,7 +190,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -163,7 +209,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -181,7 +232,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -195,7 +251,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -209,7 +270,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -223,7 +289,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -237,7 +308,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -255,7 +331,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -269,7 +350,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -283,7 +369,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -297,7 +388,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -311,7 +407,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -329,7 +430,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -343,7 +449,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -357,7 +468,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -371,7 +487,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -385,7 +506,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -403,7 +529,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -417,7 +548,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -431,7 +567,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -445,7 +586,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -459,7 +605,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -477,7 +628,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -491,7 +647,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -505,7 +666,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -519,7 +685,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -533,7 +704,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -551,7 +727,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -565,7 +746,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -579,7 +765,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -593,7 +784,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -607,7 +803,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -625,7 +826,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -639,7 +845,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -653,7 +864,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -667,7 +883,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
@@ -681,7 +902,12 @@ fetch(jsonFilePath)
           else if(data[i].place == 3){ending = "rd";}
           else {ending = "th";}
           arr[0].innerText = data[i].place + ending;
-          arr[1].innerText = data[i].player_name + " - " + data[i].team_name;
+          let a = document.createElement('a');
+          a.setAttribute("href", data[i].player_link);
+          a.setAttribute("target", "_blank");
+          a.innerText = data[i].player_name + " - " + data[i].team_name;
+          arr[1].innerText = '';
+          arr[1].appendChild(a);
           arr[2].innerText = data[i].stat;
           console.log(data[i].player_name);
         }
