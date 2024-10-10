@@ -45,10 +45,10 @@ window.onload = function() {
         a.addEventListener('click', (function(index) {
           return function(event) {
             event.preventDefault();
-            document.getElementById('modalContent').innerText = `Player: ${data[index].player_name}\nTeam: ${data[index].team_name}`;
+            document.getElementById('modalContent').innerHTML = `Player: <a href="${data[index].player_link}" target="_blank">${data[index].player_name}`;
             document.getElementById('modal').style.display = 'block';
             profilePic.setAttribute("src", data[index].photo);
-            document.getElementById("statPlayer").innerText = `PPG: ${data[index].ppg}\nRPG: ${data[index].rpg}\nAPG: ${data[index].apg}\nPIE: ${data[index].pie}`;
+            document.getElementById("statPlayer").innerText = `Team: ${data[index].team_name}\nPPG: ${data[index].ppg}\nRPG: ${data[index].rpg}\nAPG: ${data[index].apg}\nPIE: ${data[index].pie}`;
           };
         })(i));
 

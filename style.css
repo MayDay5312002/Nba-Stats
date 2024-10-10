@@ -110,5 +110,21 @@ h2 {
     font-size: 1.5em;
 }
 
+#modalContent a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0 0.1em;
+    transition: color 0.175s ease, background-color 0.175s ease; /* Smooth transition */
+}
+
+#modalContent a:hover{
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
 
 
