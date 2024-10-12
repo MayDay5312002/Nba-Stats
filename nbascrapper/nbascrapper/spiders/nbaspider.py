@@ -50,17 +50,20 @@ class NbaspiderSpider(scrapy.Spider):
             person['rpg'] = valPlayer[1].get()
             person['apg'] = valPlayer[2].get()
             person['pie'] = valPlayer[3].get()
+            person['team_logo'] = response.css('div[class^="PlayerSummary_teamLogoLink"] img[class^="TeamLogo_logo"]::attr(src)').get(default="NONE")
         elif len(valPlayer) == 3:
             person['photo'] = response.css('img[class^="PlayerImage_image"]::attr(src)').get(default="NONE")
             person['ppg'] = valPlayer[0].get()
             person['rpg'] = valPlayer[1].get()
             person['apg'] = valPlayer[2].get()
             person['pie'] = "--"
+            person['team_logo'] = response.css('div[class^="PlayerSummary_teamLogoLink"] img[class^="TeamLogo_logo"]::attr(src)').get(default="NONE")
         else:
             person['photo'] = "unknown.png"
             person['ppg'] = "--"
             person['rpg'] = "--"
             person['apg'] = "--"
             person['pie'] = "--"
+            person['team_logo'] = "--"
 
         yield person

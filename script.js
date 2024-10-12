@@ -6,6 +6,7 @@ window.onload = function() {
   const profilePic = document.querySelector("#profilePic");
   const divModal = document.querySelector("#modal > div");
   const h2s = document.querySelectorAll("h2");
+  const teamLogo = document.querySelector("#teamLogo");
 
   // Function to fetch and update the data
   function fetchDataAndUpdate() {
@@ -60,6 +61,7 @@ window.onload = function() {
                 document.getElementById('modalContent').innerHTML = `Player: <a href="${data[index].player_link}" target="_blank">${data[index].player_name}`;
                 document.getElementById('modal').style.display = 'block';
                 profilePic.setAttribute("src", data[index].photo);
+                teamLogo.setAttribute("src", data[index].team_logo);
                 document.getElementById("statPlayer").innerText = `Team: ${data[index].team_name}\nPPG: ${data[index].ppg}\nRPG: ${data[index].rpg}\nAPG: ${data[index].apg}\nPIE: ${data[index].pie}`;
               };
             })(i));
@@ -89,8 +91,13 @@ window.onload = function() {
             }
           });
 
-          // Detect orientation on resize
-          window.addEventListener("resize", detectOrientation);
+          // Detect orientation on resize only for mobile
+          if(isMobileDevice()){
+            window.addEventListener("resize", detectOrientation);
+          }
+          else{
+            console.log("not mobile");
+          }
           // detectOrientation();  // Call this initially to set correct styles
         }
         // else{
@@ -116,6 +123,7 @@ window.onload = function() {
     if ((screenWidth / screenHeight) >= 1.77) {
       profilePic.style.width = "13.5rem";
       divModal.style.width = "17rem";
+      teamLogo.style.width = "3.5em"
       for(let i = 0; i < h2s.length; i++){
         h2s[i].style.fontSize = "1.15rem";
       }
@@ -123,6 +131,7 @@ window.onload = function() {
     } else {
       profilePic.style.width = "17.5rem";
       divModal.style.width = "20rem";
+      teamLogo.style.width = "4.5em"
       for(let i = 0; i < h2s.length; i++){
         h2s[i].style.fontSize = "1.5rem";  // Adjusted different font size
       }
@@ -136,6 +145,10 @@ window.onload = function() {
     if (place === 2) return "nd";
     if (place === 3) return "rd";
     return "th";
+  }
+
+  function isMobileDevice() {
+    return /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   }
   
 };

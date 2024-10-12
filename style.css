@@ -126,5 +126,12 @@ h2 {
     color: white;
 }
 
+#teamLogo {
+    position: absolute;
+    left: 0.1em;
+    top: 0.1em;
+    width: 4.5em;
+}
+
 
 

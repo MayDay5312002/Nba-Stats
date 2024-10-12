@@ -16,6 +16,7 @@ class NbascrapperItem(scrapy.Item):
     stat = scrapy.Field()
     player_link = scrapy.Field()
     photo = scrapy.Field()
+    team_logo = scrapy.Field()
     ppg = scrapy.Field()
     rpg = scrapy.Field()
     apg = scrapy.Field()
