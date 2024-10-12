@@ -45,25 +45,25 @@ class NbaspiderSpider(scrapy.Spider):
         valPlayer = response.css('p[class^="PlayerSummary_playerStatValue"]::text')
         print(len(valPlayer))
         if len(valPlayer) == 4:
-            person['photo'] = response.css('img[class^="PlayerImage_image"]::attr(src)').get(default="NONE")
+            person['photo'] = response.css('img[class^="PlayerImage_image"]::attr(src)').get(default="unknown.png")
             person['ppg'] = valPlayer[0].get()
             person['rpg'] = valPlayer[1].get()
             person['apg'] = valPlayer[2].get()
             person['pie'] = valPlayer[3].get()
-            person['team_logo'] = response.css('div[class^="PlayerSummary_teamLogoLink"] img[class^="TeamLogo_logo"]::attr(src)').get(default="NONE")
+            person['team_logo'] = response.css('div[class^="PlayerSummary_teamLogoLink"] img[class^="TeamLogo_logo"]::attr(src)').get(default="unknownTeam.png")
         elif len(valPlayer) == 3:
-            person['photo'] = response.css('img[class^="PlayerImage_image"]::attr(src)').get(default="NONE")
+            person['photo'] = response.css('img[class^="PlayerImage_image"]::attr(src)').get(default="unknown.png")
             person['ppg'] = valPlayer[0].get()
             person['rpg'] = valPlayer[1].get()
             person['apg'] = valPlayer[2].get()
             person['pie'] = "--"
-            person['team_logo'] = response.css('div[class^="PlayerSummary_teamLogoLink"] img[class^="TeamLogo_logo"]::attr(src)').get(default="NONE")
+            person['team_logo'] = response.css('div[class^="PlayerSummary_teamLogoLink"] img[class^="TeamLogo_logo"]::attr(src)').get(default="unknownTeam.png")
         else:
             person['photo'] = "unknown.png"
             person['ppg'] = "--"
             person['rpg'] = "--"
             person['apg'] = "--"
             person['pie'] = "--"
-            person['team_logo'] = "--"
+            person['team_logo'] = "unknownTeam.png"
 
         yield person
