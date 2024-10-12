@@ -37,7 +37,7 @@ jobs:
         git config user.name "MayDay5312002"
         git pull
         git status
-        git add .
+        git add stat.json
         git commit -m "Updating existing json file"
 
     - name: Push Changes
