@@ -88,7 +88,7 @@ td a:hover{
     padding:1em; 
     width:20em; 
     /* height: 20em; */
-    background:white; 
+    background:rgb(207, 207, 207); 
     border-radius:5px; 
     top:50%; 
     transform:translateY(-50%);
