@@ -119,6 +119,7 @@ h2 {
     font-size: inherit;
     padding: 0 0.1em;
     transition: color 0.175s ease, background-color 0.175s ease; /* Smooth transition */
+    border-radius: 0.5em;
 }
 
 #modalContent a:hover{
