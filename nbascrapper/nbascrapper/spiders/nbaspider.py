@@ -26,7 +26,7 @@ class NbaspiderSpider(scrapy.Spider):
                 person['player_name'] = row[j].css('a::text')[0].get()
                 person['team_name'] = row[j].css('span::text').get()
 
-                if i == 8:
+                if i == 8: #This is for fantasy points, which is a float
                     person['stat'] = float(row[j].css('a::text')[1].get())
                 else:
                     person['stat'] = int(row[j].css('a::text')[1].get())
