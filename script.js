@@ -1,6 +1,7 @@
 const jsonFilePath = 'stat.json';
 let previousData = null;
 let refreshInterval = 5000;  // Set polling interval to 5 seconds
+let dateVariable = document.querySelector('.dateScapred');
 
 window.onload = function() {
   const profilePic = document.querySelector("#profilePic");
@@ -138,6 +139,8 @@ window.onload = function() {
       console.log("Portrait");
     }
   }
+
+  fetch('date.txt').then(response => response.text()).then(data => dateVariable.innerText = data).catch(error => console.error(error));
 
   // Helper function
   function getEnding(place) {
