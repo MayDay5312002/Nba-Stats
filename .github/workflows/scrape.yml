@@ -40,7 +40,7 @@ jobs:
         git config user.name "${{secrets.GIT_USERNAME}}"
         git pull
         git status
-        git add stat.json
+        git add stat.json date.txt
         git commit -m "Updating existing json file"
 
     - name: Push Changes
