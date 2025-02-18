@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Set the date file
-      run: echo "$(date)" > date.txt
-    
     - name: Checkout Repository
       uses: actions/checkout@v2
+
+    - name: Set the date file
+      run: echo "$(date)" > date.txt
 
     - name: Set up Python
       uses: actions/setup-python@v2
