@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Set the dateVar
-      run: echo "DATEVAR=$(date)" >> $GITHUB_ENV
+    - name: Set the date file
+      run: echo "$(date)" > date.txt
     
     - name: Checkout Repository
       uses: actions/checkout@v2
